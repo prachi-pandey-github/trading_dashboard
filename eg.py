@@ -254,7 +254,7 @@ class TSLADashboard:
         """Setup Gemini AI client with hardcoded API key"""
         try:
             # HARDCODED API KEY - REPLACE WITH YOUR ACTUAL API KEY
-            api_key = "AIzaSyC9JcMQYrTWOMCZjHVgwLrREuOwOdSUi8M"
+            api_key = "GEMINI_API"
             
             genai.configure(api_key=api_key)
             self.genai_client = genai.GenerativeModel('gemini-2.0-flash-thinking-exp-01-21')
